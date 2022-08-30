@@ -1,0 +1,110 @@
+
+body{ 
+    background-color: rgb(207, 228, 247);
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    background-color: rgb(0, 228, 228);
+    height: 45px;
+    width: 100%;
+    margin-top: -16px;
+}
+li{
+    list-style: none;
+}
+.header-logo{
+    float: left;
+    padding:15px 15px;
+    margin-right:12px;
+    font-size: larger;
+    color: rgb(185, 120, 247);
+    background-image: url(/chori.jpg);
+    height: 15px;
+    font-family:sans-serif;
+}
+.header-list li{
+    padding: 15px;
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: Tahoma;
+    color: rgb(255, 246, 234);
+}
+.photo {
+    float: left;
+    padding: 14px 0px;
+   margin-left:340px ;
+   
+}
+ 
+.photo img{
+   width: 20px;
+   border-radius: 50%;
+   
+}
+.user-info{
+    float: right;
+    margin-left: 5px;
+    font-size: 12px;
+    padding: 12px 0px;
+    margin-top: -48px;
+    
+}
+
+.user-info .details {
+   font-family: Tahoma;
+   color: rgb(139, 80, 2);
+
+}
+
+#dropdown{
+    margin-right:20px;
+border: 2px solid rgb(53, 37, 37);
+border-radius: 50%;
+border-left: 2px;
+background-color: rgb(211, 128, 250);
+}
+
+/* main */
+
+.main{
+padding: 100px 80px;
+
+}
+.container{
+    display: flex;
+    margin-left: -65px;
+}
+.contents-item{
+    padding-right: 8px;
+}
+
+/* footer */
+
+.footer{
+    background-color: rgb(24, 24, 41);
+    height: 80px;
+ padding: 40px;  
+}
+.footer-logo{
+    float: left;
+    padding:25px ;
+    margin-right:12px;
+    font-size:26px;
+    color: rgb(185, 120, 247);
+    height: 15px;
+    font-family:sans-serif;
+}
+.footer-list {
+   
+    float: right;
+    font-size: 12px;
+    font-family: Tahoma;
+    color: rgb(255, 246, 234);
+}
+.footer-list li{
+    padding-bottom: 15px;
+
+}
